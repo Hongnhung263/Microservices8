@@ -8,16 +8,14 @@
       "name": "SERVICES COUPON API",
       "type": "coreclr",
       "request": "launch",
-      "preLaunchTask": "buildCouponAPI",
-      "program": "${workspaceFolder}/Mango.Services.CouponAPI/bin/Debug/net8.0/Mango.Services.CouponAPI.dll",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/S02-002_CouponAPI/Mango.Services.CouponAPI/bin/Debug/net8.0/Mango.Services.CouponAPI.dll",
       "args": [],
-      "cwd": "${workspaceFolder}/Mango.Services.CouponAPI",
+      "cwd": "${workspaceFolder}/S02-002_CouponAPI/Mango.Services.CouponAPI",
       "stopAtEntry": false,
       "serverReadyAction": {
         "action": "openExternally",
-        "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
-        "uriFormat": "%s/swagger/index.html"
-
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
       },
       "env": {
         "ASPNETCORE_ENVIRONMENT": "Development"
